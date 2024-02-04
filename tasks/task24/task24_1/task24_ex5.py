@@ -2,7 +2,7 @@
 # Определите максимальное количество идущих подряд нечётных цифр, расположенных в неубывающем порядке.
 # Для выполнения этого задания следует написать программу.
 
-with open("C:\\Users\\Владимир\\Downloads\\Telegram Desktop\\task5.txt") as f:
+with open("C:\\ЕГЭ ИНФОРМАТИКА\\project_python\\files\\task5.txt") as f:
     file = f.readline()
 
 count = 1

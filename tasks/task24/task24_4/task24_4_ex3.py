@@ -1,6 +1,6 @@
 # Текстовый файл состоит из символов A, B, C, D и O. Определите максимальное количество идущих подряд пар символов
 # вида согласная + гласная в прилагаемом файле. Для выполнения этого задания следует написать программу.
-with open("C:\\Users\\Владимир\\Downloads\\Telegram Desktop\\task6 (2).txt") as file:
+with open("C:\\ЕГЭ ИНФОРМАТИКА\\project_python\\files\\filesdop\\task6 (2).txt") as file:
     s = file.readline()
 
 s = s.replace('BA', '1')

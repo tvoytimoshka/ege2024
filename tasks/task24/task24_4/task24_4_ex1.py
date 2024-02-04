@@ -2,7 +2,7 @@
 # состоящей из повторяющихся фрагментов XYZ. Цепочка должна начинаться с символа X и заканчиваться символом Z.
 # Например, для строки ZZZXYZXYZXZZZ длина цепочки равна 6: XYZ+XYZ
 
-with open("C:\\Users\\Владимир\\Downloads\\Telegram Desktop\\task4 (2).txt") as file:
+with open("C:\\ЕГЭ ИНФОРМАТИКА\\project_python\\files\\filesdop\\task4 (2).txt") as file:
     s = file.readline()
 
 count = 0

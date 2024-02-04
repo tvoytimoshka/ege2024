@@ -2,7 +2,7 @@
 # символов AC или AB. Искомая подстрока может включать только пары AB, только пары AC или содержать одновременно как
 # пары AC, так и пары AB.
 
-with open("C:\\Users\\Владимир\\Downloads\\Telegram Desktop\\task5 (2).txt") as file:
+with open("C:\\ЕГЭ ИНФОРМАТИКА\\project_python\\files\\filesdop\\task5 (2).txt") as file:
     s = file.readline()
 
 s = s.replace('AB', '1')

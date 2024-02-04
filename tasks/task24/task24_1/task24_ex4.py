@@ -3,7 +3,7 @@
 # Для выполнения этого задания следует написать программу.
 
 
-with open('/home/george/Рабочий стол/task4.txt') as f:
+with open("C:\\ЕГЭ ИНФОРМАТИКА\\project_python\\files\\task4.txt") as f:
     file = f.readline()
 
 count = 1

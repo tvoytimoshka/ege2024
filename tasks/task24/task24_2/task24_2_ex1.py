@@ -1,7 +1,7 @@
 # Текстовый файл состоит из символов P, Q, R и S. Определите максимальное количество идущих подряд символов в
 # прилагаемом файле, среди которых нет идущих подряд символов P. Для выполнения этого задания следует написать
 # программу.
-with open("C:\\Users\\Владимир\\Downloads\\Telegram Desktop\\task1.txt") as file:
+with open("C:\\ЕГЭ ИНФОРМАТИКА\\project_python\\files\\filesdop\\task1.txt") as file:
     f = file.readline()
 
 count = 1

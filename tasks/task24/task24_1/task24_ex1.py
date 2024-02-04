@@ -1,4 +1,4 @@
-with open('"C:\\Users\\Владимир\\Downloads\\24_demo.txt"') as f:
+with open("C:\\ЕГЭ ИНФОРМАТИКА\\project_python\\files\\24_demo.txt") as f:
     file = f.readline()
 
 count = 1

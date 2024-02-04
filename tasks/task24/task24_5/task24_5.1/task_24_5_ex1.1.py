@@ -15,7 +15,7 @@
 # примера надо записать A6, так как во всех строках файла буква A встречается 6 раз.
 
 # 1 часть решения(находим строчку)
-f = open("C:\\Users\\Владимир\\Downloads\\Telegram Desktop\\task9.txt")
+f = open("C:\\ЕГЭ ИНФОРМАТИКА\\project_python\\files\\filesdop\\task9.txt")
 
 count = 0  # номер строки
 max_k = 0

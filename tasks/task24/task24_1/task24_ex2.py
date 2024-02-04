@@ -1,4 +1,4 @@
-with open('/home/george/Рабочий стол/task2.txt') as f:
+with open("C:\\ЕГЭ ИНФОРМАТИКА\\project_python\\files\\task2.txt") as f:
     file = f.readline()
 
 count = 1

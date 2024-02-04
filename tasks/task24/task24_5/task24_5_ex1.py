@@ -4,7 +4,7 @@
 # символами стоит B, в ответе для этого случая надо написать B2 (без пробелов и других разделителей). Если таких
 # символов несколько, выведите тот, который стоит раньше в алфавите.
 
-with open("C:\\Users\\Владимир\\Downloads\\Telegram Desktop\\task8.txt") as file:
+with open("C:\\ЕГЭ ИНФОРМАТИКА\\project_python\\files\\filesdop\\task8.txt") as file:
     s = file.readline()
 list = [0] * 150
 

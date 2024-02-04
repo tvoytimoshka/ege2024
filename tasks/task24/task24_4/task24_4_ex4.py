@@ -4,7 +4,7 @@
 # x % 3 = 0
 # y % 3 = 1
 # z % 3 = 2
-with open("C:\\Users\\Владимир\\Downloads\\Telegram Desktop\\task7.txt") as file:
+with open("C:\\ЕГЭ ИНФОРМАТИКА\\project_python\\files\\filesdop\\task7.txt") as file:
     s = file.readline()
 
 count = 0

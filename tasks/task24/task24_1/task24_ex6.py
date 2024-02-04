@@ -1,16 +1,15 @@
-# Текстовый файл состоит не более чем из 10**6 символов арабских цифр (0, 1, ...,9).
-# Определите максимальное количество идущих подряд нечётных цифр, расположенных в неубывающем порядке.
-# Для выполнения этого задания следует написать программу.
-
-with open("C:\\Users\\Владимир\\Downloads\\Telegram Desktop\\task5.txt") as f:
-    file = f.readline()
+# Текстовый файл состоит не более чем из 106 символов 1, 2, 3, A, B, С. Определите максимальное количество идущих
+# подряд символов, среди которых никакие две буквы и никакие две цифры не стоят рядом. Для выполнения этого задания
+# следует написать программу.
+with open("C:\\ЕГЭ ИНФОРМАТИКА\\project_python\\files\\task6.txt") as file:
+    f = file.readline()
 
 count = 1
-max_count = -1213
-for i in range(0, len(file) - 1):
-    if file[i] <= file[i+1] and file[i] in '13579' and file[i+1] in '13579':
+max_count = 0
+for i in range(0, len(f)-1):
+    if (f[i] in '123' and f[i+1] in 'ABC') or (f[i] in 'ABC' and f[i+1] in '123'):
         count += 1
         max_count = max(max_count, count)
     else:
         count = 1
-print(max(count, max_count))
+print(max_count)

@@ -3,7 +3,7 @@
 # в алфавитном порядке (возможно с повторением символов). Для выполнения
 # этого задания следует написать программу.
 
-with open('/home/george/Рабочий стол/task3.txt') as f:
+with open("C:\\ЕГЭ ИНФОРМАТИКА\\project_python\\files\\task3.txt") as f:
     file = f.readline()
 
 k = 1
